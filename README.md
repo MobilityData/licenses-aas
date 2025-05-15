@@ -12,7 +12,7 @@ The [choosealicense.com](https://github.com/github/choosealicense.com) is a grea
 - It focuses more on **encouraging license use** than on **neutral license comparison**.
 
 This repository is intended to provide:
-- A **more complete and neutral catalog** of open source licenses
+- A **more complete and neutral catalog** of software and data licenses
 - **Machine-readable metadata** for reuse in other tools or websites
 - An **API-ready format** for program-to-program integration
 

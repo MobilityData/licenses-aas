@@ -12,8 +12,6 @@ We welcome contributions to both the base code and the license content.
 - **Suggest improvements to the documentation content and structure**
 
 ## Adding a License
-This repository aims to provide structured, machine-readable information about software and data licenses.
-
 You’re welcome to propose the addition of a new license if it meets the following basic criteria:
 
 ### Required Criteria
@@ -34,11 +32,7 @@ You’re welcome to propose the addition of a new license if it meets the follow
    - A list of standardized `rules` (see `data/rules.json`)
    - Optional metadata (e.g., OSI approval, FSF status, use cases)
 
-3. **Keep formatting clean and consistent**
-   - Use 2-space indentation
-   - Wrap long summaries at ~80 characters where possible
-
-4. **Ensure accuracy**
+3. **Ensure accuracy**
    - Match license text/metadata with the official SPDX entry
    - Provide examples or references in your pull request (e.g., popular repos using the license)
 
