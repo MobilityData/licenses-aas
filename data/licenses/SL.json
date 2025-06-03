@@ -1,0 +1,29 @@
+{
+  "spdx": {
+    "isDeprecatedLicenseId": false,
+    "licenseText": "Everyone is permitted to do anything on this program including copying,\nmodifying, and improving, unless you try to pretend that you wrote it.\ni.e., the above copyright notice has to appear in all copies.\nTHE AUTHOR DISCLAIMS ANY RESPONSIBILITY WITH REGARD TO THIS SOFTWARE.\n",
+    "standardLicenseTemplate": "<<beginOptional>>SL License<<endOptional>>\nEveryone is permitted to do anything on this program including copying, modifying, and improving, unless you try to pretend that you wrote it. i.e., the above copyright notice has to appear in all copies. THE AUTHOR DISCLAIMS ANY RESPONSIBILITY WITH REGARD TO THIS SOFTWARE.\n\n",
+    "name": "SL License",
+    "licenseId": "SL",
+    "crossRef": [
+      {
+        "match": "false",
+        "url": "https://github.com/mtoyoda/sl/blob/master/LICENSE",
+        "isValid": true,
+        "isLive": true,
+        "timestamp": "2025-05-29T15:20:32Z",
+        "isWayBackLink": false,
+        "order": 0
+      }
+    ],
+    "seeAlso": [
+      "https://github.com/mtoyoda/sl/blob/master/LICENSE"
+    ],
+    "isOsiApproved": false,
+    "licenseTextHtml": "\n         <var class=\"optional-license-text\"> \n            SL License\n         </var>\n         <p>\n            Everyone is permitted to do anything on this program including copying,\n            modifying, and improving, unless you try to pretend that you wrote it.\n            i.e., the above copyright notice has to appear in all copies.\n            THE AUTHOR DISCLAIMS ANY RESPONSIBILITY WITH REGARD TO THIS SOFTWARE.\n         </p>\n\n      "
+  },
+  "categorized": false,
+  "permissions": [],
+  "conditions": [],
+  "limitations": []
+}
