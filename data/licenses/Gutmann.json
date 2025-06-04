@@ -1,0 +1,29 @@
+{
+  "spdx": {
+    "isDeprecatedLicenseId": false,
+    "licenseText": "You can use this code in whatever way you want, as long as you don't try\nto claim you wrote it.\n",
+    "standardLicenseTemplate": "You can use this code in whatever way you want, as long as you don't try to claim you wrote it.\n\n",
+    "name": "Gutmann License",
+    "licenseId": "Gutmann",
+    "crossRef": [
+      {
+        "match": "true",
+        "url": "https://www.cs.auckland.ac.nz/~pgut001/dumpasn1.c",
+        "isValid": true,
+        "isLive": true,
+        "timestamp": "2025-05-29T15:15:24Z",
+        "isWayBackLink": false,
+        "order": 0
+      }
+    ],
+    "seeAlso": [
+      "https://www.cs.auckland.ac.nz/~pgut001/dumpasn1.c"
+    ],
+    "isOsiApproved": false,
+    "licenseTextHtml": "\n         <p>\n            You can use this code in whatever way you want,\n            as long as you don&apos;t try to claim you wrote it.\n         </p>\n\n      "
+  },
+  "categorized": false,
+  "permissions": [],
+  "conditions": [],
+  "limitations": []
+}

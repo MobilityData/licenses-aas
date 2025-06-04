@@ -1,0 +1,6 @@
+[submodule ".spdx_license_repo"]
+	path = .spdx_license_repo
+	url = git@github.com:spdx/license-list-data.git
+[submodule ".choosealicense_repo"]
+	path = .choosealicense_repo
+	url = git@github.com:github/choosealicense.com.git

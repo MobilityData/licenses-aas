@@ -1,0 +1,39 @@
+{
+  "spdx": {
+    "isDeprecatedLicenseId": false,
+    "licenseText": "\"THE BEER-WARE LICENSE\" (Revision 42):  <phk@FreeBSD.ORG> wrote this file. As long as you retain this notice you  can do whatever you want with this stuff. If we meet some day, and you think  this stuff is worth it, you can buy me a beer in return Poul-Henning Kamp\n",
+    "standardLicenseTemplate": "\"THE BEER-WARE LICENSE\" (Revision 42):\n\n<<var;name=\"email\";original=\"<phk@FreeBSD.ORG>\";match=\"<phk@FreeBSD.ORG>|<phk@login.dkuug.dk>\">> wrote this file. As long as you retain this notice you can do whatever you want with this stuff. If we meet some day, and you think this stuff is worth it, you can buy me a beer in return Poul-Henning Kamp\n\n",
+    "name": "Beerware License",
+    "licenseId": "Beerware",
+    "crossRef": [
+      {
+        "match": "false",
+        "url": "https://fedoraproject.org/wiki/Licensing/Beerware",
+        "isValid": true,
+        "isLive": true,
+        "timestamp": "2025-05-29T15:27:10Z",
+        "isWayBackLink": false,
+        "order": 0
+      },
+      {
+        "match": "false",
+        "url": "https://people.freebsd.org/~phk/",
+        "isValid": true,
+        "isLive": true,
+        "timestamp": "2025-05-29T15:27:11Z",
+        "isWayBackLink": false,
+        "order": 1
+      }
+    ],
+    "seeAlso": [
+      "https://fedoraproject.org/wiki/Licensing/Beerware",
+      "https://people.freebsd.org/~phk/"
+    ],
+    "isOsiApproved": false,
+    "licenseTextHtml": "\n       <p>&quot;THE BEER-WARE LICENSE&quot; (Revision 42):</p>\n\n      <p><var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern <phk@FreeBSD.ORG>|<phk@login.dkuug.dk>\"> &lt;phk@FreeBSD.ORG&gt;</span></var> wrote this file. As long as you retain\n         this notice you can do whatever you want with this stuff. If we meet some day, and you think this\n         stuff is worth it, you can buy me a beer in return Poul-Henning Kamp</p>\n\n    "
+  },
+  "categorized": false,
+  "permissions": [],
+  "conditions": [],
+  "limitations": []
+}
