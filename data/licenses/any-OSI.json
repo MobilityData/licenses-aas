@@ -1,0 +1,29 @@
+{
+  "spdx": {
+    "isDeprecatedLicenseId": false,
+    "licenseText": "Pick your favourite OSI approved license :)\n\nhttp://www.opensource.org/licenses/alphabetical\n",
+    "standardLicenseTemplate": "Pick your favourite OSI approved license :)\n\nhttp://www.opensource.org/licenses/alphabetical\n\n",
+    "name": "Any OSI License",
+    "licenseId": "any-OSI",
+    "crossRef": [
+      {
+        "match": "false",
+        "url": "https://metacpan.org/pod/Exporter::Tidy#LICENSE",
+        "isValid": true,
+        "isLive": true,
+        "timestamp": "2025-05-29T15:23:40Z",
+        "isWayBackLink": false,
+        "order": 0
+      }
+    ],
+    "seeAlso": [
+      "https://metacpan.org/pod/Exporter::Tidy#LICENSE"
+    ],
+    "isOsiApproved": false,
+    "licenseTextHtml": "\n         <p>\n            Pick your favourite OSI approved license :)\n         </p>\n\n         <p>\n            http://www.opensource.org/licenses/alphabetical\n         </p>\n\n      "
+  },
+  "categorized": false,
+  "permissions": [],
+  "conditions": [],
+  "limitations": []
+}
