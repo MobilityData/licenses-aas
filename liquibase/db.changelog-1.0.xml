@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                    http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <changeSet id="1" author="jules">
+        <comment>Create initial tables: licenses, rules, and license_rules_mapping</comment>
+
+        <createTable tableName="licenses">
+            <column name="spdx_id" type="TEXT">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="name" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="url" type="TEXT"/>
+            <column name="summary" type="TEXT"/>
+        </createTable>
+
+        <createTable tableName="rules">
+            <column name="key" type="TEXT">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="label" type="TEXT"/>
+            <column name="description" type="TEXT"/>
+            <column name="category" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+
+        <createTable tableName="license_rules_mapping">
+            <column name="license_spdx_id" type="TEXT">
+                <constraints nullable="false" foreignKeyName="fk_mapping_license" references="licenses(spdx_id)"/>
+            </column>
+            <column name="rule_key" type="TEXT">
+                <constraints nullable="false" foreignKeyName="fk_mapping_rule" references="rules(key)"/>
+            </column>
+            <column name="id" type="INTEGER" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+        </createTable>
+
+        <!-- Add a composite primary key for license_rules_mapping to ensure uniqueness if id is not used as PK -->
+        <!-- SQLite doesn't directly support composite PK via <addPrimaryKey>, so defined during createTable or use unique constraint -->
+        <!-- For simplicity, the auto-incrementing 'id' serves as PK. We can add a unique constraint on (license_spdx_id, rule_key) -->
+        <addUniqueConstraint
+            constraintName="uq_license_rule_pair"
+            tableName="license_rules_mapping"
+            columnNames="license_spdx_id, rule_key"/>
+
+    </changeSet>
+
+</databaseChangeLog>

@@ -1,0 +1,5 @@
+Flask
+connexion[flask]
+swagger-ui-bundle
+click
+pytest

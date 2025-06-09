@@ -1,0 +1,97 @@
+openapi: 3.0.0
+info:
+  title: Licenses as a Service API
+  version: v1.0.0
+  description: An API for accessing and managing software and data license information.
+
+paths:
+  /licenses:
+    get:
+      summary: List all available licenses
+      operationId: listLicenses
+      responses:
+        '200':
+          description: A list of licenses.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/LicenseSummary'
+  /licenses/{spdx_id}:
+    get:
+      summary: Get a specific license by its SPDX ID
+      operationId: getLicenseBySpdxId
+      parameters:
+        - name: spdx_id
+          in: path
+          required: true
+          description: The SPDX identifier of the license.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Detailed information about the license.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/License'
+        '404':
+          description: License not found.
+
+components:
+  schemas:
+    LicenseRule:
+      type: object
+      properties:
+        key:
+          type: string
+          description: The unique key for the rule (e.g., 'commercial-use').
+        label:
+          type: string
+          description: A human-readable label for the rule.
+        description:
+          type: string
+          description: A detailed description of the rule.
+        category:
+          type: string
+          enum: [permissions, conditions, limitations]
+          description: The category of the rule.
+    LicenseSummary:
+      type: object
+      properties:
+        spdx_id:
+          type: string
+          description: The SPDX identifier for the license (e.g., 'MIT', 'Apache-2.0').
+        name:
+          type: string
+          description: The full name of the license (e.g., 'MIT License', 'Apache License 2.0').
+        # Potentially add other summary fields later if needed
+    License:
+      type: object
+      properties:
+        spdx_id:
+          type: string
+          description: The SPDX identifier for the license.
+        name:
+          type: string
+          description: The full name of the license.
+        url: # Corrected from 'text_url' to align with typical naming and choosealicense
+          type: string
+          format: url
+          description: Link to the full text of the license.
+        summary:
+          type: string
+          description: A human-readable summary of the license.
+        rules:
+          type: array
+          items:
+            $ref: '#/components/schemas/LicenseRule'
+        # Optional metadata from data/licenses/README.md (e.g., OSI approval, FSF status)
+        # These can be added as more specific fields later if the data is consistent
+        # For now, a generic metadata field might be too loose.
+        # Example:
+        # osi_approved:
+        #   type: boolean
+        # fsf_libre:
+        #   type: boolean
