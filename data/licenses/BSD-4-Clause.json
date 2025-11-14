@@ -38,5 +38,11 @@
   "limitations": [
     "liability",
     "warranty"
+  ],
+  "tags": [
+    "spdx:fsf-free",
+    "license:open-source",
+    "domain:software",
+    "copyleft:permissive"
   ]
 }

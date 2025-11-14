@@ -39,5 +39,13 @@
     "trademark-use",
     "patent-use",
     "warranty"
+  ],
+  "tags": [
+    "spdx:fsf-free",
+    "license:creative-commons",
+    "family:CC",
+    "domain:content",
+    "notes:attribution-required",
+    "domain:data"
   ]
 }

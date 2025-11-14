@@ -27,5 +27,10 @@
   "categorized": false,
   "permissions": [],
   "conditions": [],
-  "limitations": []
+  "limitations": [],
+  "tags": [
+    "spdx:osi-approved",
+    "license:open-source",
+    "domain:software"
+  ]
 }

@@ -38,5 +38,10 @@
   "categorized": false,
   "permissions": [],
   "conditions": [],
-  "limitations": []
+  "limitations": [],
+  "tags": [
+    "spdx:deprecated",
+    "license:open-source",
+    "domain:software"
+  ]
 }

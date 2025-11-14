@@ -36,5 +36,12 @@
     "trademark-use",
     "patent-use",
     "warranty"
+  ],
+  "tags": [
+    "spdx:fsf-free",
+    "license:public-domain",
+    "copyleft:none",
+    "domain:content",
+    "domain:data"
   ]
 }

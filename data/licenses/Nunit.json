@@ -27,5 +27,11 @@
   "categorized": false,
   "permissions": [],
   "conditions": [],
-  "limitations": []
+  "limitations": [],
+  "tags": [
+    "spdx:fsf-free",
+    "spdx:deprecated",
+    "license:open-source",
+    "domain:software"
+  ]
 }

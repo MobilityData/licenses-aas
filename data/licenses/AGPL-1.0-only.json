@@ -25,5 +25,11 @@
   "categorized": false,
   "permissions": [],
   "conditions": [],
-  "limitations": []
+  "limitations": [],
+  "tags": [
+    "license:open-source",
+    "family:AGPL",
+    "domain:software",
+    "copyleft:network"
+  ]
 }

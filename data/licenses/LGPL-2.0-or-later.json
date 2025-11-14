@@ -30,5 +30,12 @@
   "categorized": false,
   "permissions": [],
   "conditions": [],
-  "limitations": []
+  "limitations": [],
+  "tags": [
+    "spdx:osi-approved",
+    "license:open-source",
+    "family:LGPL",
+    "domain:software",
+    "copyleft:weak"
+  ]
 }

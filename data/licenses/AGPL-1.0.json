@@ -29,5 +29,13 @@
   "categorized": false,
   "permissions": [],
   "conditions": [],
-  "limitations": []
+  "limitations": [],
+  "tags": [
+    "spdx:fsf-free",
+    "spdx:deprecated",
+    "license:open-source",
+    "family:AGPL",
+    "domain:software",
+    "copyleft:network"
+  ]
 }

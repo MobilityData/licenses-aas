@@ -53,5 +53,14 @@
   "limitations": [
     "liability",
     "warranty"
+  ],
+  "tags": [
+    "spdx:osi-approved",
+    "spdx:fsf-free",
+    "spdx:deprecated",
+    "license:open-source",
+    "family:LGPL",
+    "domain:software",
+    "copyleft:weak"
   ]
 }

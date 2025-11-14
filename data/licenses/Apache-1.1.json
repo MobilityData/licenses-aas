@@ -38,5 +38,12 @@
   "categorized": false,
   "permissions": [],
   "conditions": [],
-  "limitations": []
+  "limitations": [],
+  "tags": [
+    "spdx:osi-approved",
+    "spdx:fsf-free",
+    "license:open-source",
+    "domain:software",
+    "copyleft:permissive"
+  ]
 }

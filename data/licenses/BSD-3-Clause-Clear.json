@@ -39,5 +39,11 @@
     "liability",
     "patent-use",
     "warranty"
+  ],
+  "tags": [
+    "spdx:fsf-free",
+    "license:open-source",
+    "domain:software",
+    "copyleft:permissive"
   ]
 }

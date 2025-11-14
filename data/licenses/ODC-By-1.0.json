@@ -25,5 +25,12 @@
   "categorized": false,
   "permissions": [],
   "conditions": [],
-  "limitations": []
+  "limitations": [],
+  "tags": [
+    "license:open-data-commons",
+    "family:ODC",
+    "domain:data",
+    "notes:attribution-required",
+    "notes:share-alike"
+  ]
 }

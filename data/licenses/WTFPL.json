@@ -41,5 +41,10 @@
     "private-use"
   ],
   "conditions": [],
-  "limitations": []
+  "limitations": [],
+  "tags": [
+    "spdx:fsf-free",
+    "license:open-source",
+    "domain:software"
+  ]
 }
