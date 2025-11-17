@@ -35,5 +35,10 @@
   "categorized": false,
   "permissions": [],
   "conditions": [],
-  "limitations": []
+  "limitations": [],
+  "tags": [
+    "license:open-data-commons",
+    "family:ODC",
+    "domain:data"
+  ]
 }

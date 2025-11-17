@@ -28,5 +28,13 @@
   "categorized": false,
   "permissions": [],
   "conditions": [],
-  "limitations": []
+  "limitations": [],
+  "tags": [
+    "spdx:osi-approved",
+    "spdx:deprecated",
+    "license:open-source",
+    "family:GPL",
+    "domain:software",
+    "copyleft:strong"
+  ]
 }

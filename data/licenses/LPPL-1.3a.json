@@ -31,5 +31,10 @@
   "categorized": false,
   "permissions": [],
   "conditions": [],
-  "limitations": []
+  "limitations": [],
+  "tags": [
+    "spdx:fsf-free",
+    "license:open-source",
+    "domain:software"
+  ]
 }

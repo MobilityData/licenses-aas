@@ -93,8 +93,6 @@ Outputs:
 - Conditions
 - Limitations
 
----
-
 ### Dependencies
 
 Install the required Python packages:
@@ -102,3 +100,28 @@ Install the required Python packages:
 ```bash
 pip install -r requirements.txt
 ```
+
+---
+
+## License Tagging Utility
+
+### `licenses_tags.py`
+
+The `licenses_tags.py` script is used to apply tags to license JSON files in the `data/licenses/` directory. Tags provide metadata about licenses, such as their permissions, conditions, limitations, and domains of applicability. This script ensures consistency and accuracy by validating tags against a predefined tag registry.
+
+### Output
+
+Each license JSON file is updated with a `tags` field, which contains a list of tags describing the license. Tags are categorized into the following groups:
+
+- **License Type**: e.g., `license:public-domain`, `license:open-source`, `license:creative-commons`.
+- **Domain**: e.g., `domain:content`, `domain:data`, `domain:software`.
+- **Copyleft Strength**: e.g., `copyleft:none`, `copyleft:weak`, `copyleft:strong`.
+- **Family**: e.g., `family:CC` (Creative Commons), `family:GPL` (GNU General Public License).
+- **Notes**: e.g., `notes:attribution-required`, `notes:share-alike`.
+
+### Usage
+
+Run the script from the repository root:
+
+```bash
+python licenses_tags.py

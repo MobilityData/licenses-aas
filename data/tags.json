@@ -1,0 +1,198 @@
+{
+  "license": {
+    "_group": {
+      "short": "License type",
+      "description": "High-level classification of the license family or ecosystem (e.g., Creative Commons, Open Data Commons, government open licenses, open-source, public domain, proprietary)."
+    },
+    "creative-commons": {
+      "description": "Licenses published by Creative Commons, typically used for content or data.",
+      "url": "https://creativecommons.org/licenses/"
+    },
+    "open-data-commons": {
+      "description": "Licenses from the Open Data Commons (ODC), including ODbL, ODC-By, and PDDL.",
+      "url": "https://opendatacommons.org/licenses/"
+    },
+    "government-open-license": {
+      "description": "Licenses published by governments for open data access, such as OGL-UK or Etalab.",
+      "url": "https://en.wikipedia.org/wiki/Open_government_licence"
+    },
+    "open-source": {
+      "description": "Standard open-source software licenses commonly used for software projects.",
+      "url": "https://opensource.org/licenses"
+    },
+    "public-domain": {
+      "description": "Licenses or statements that place the work in the public domain, such as CC0 or the Unlicense.",
+      "url": "https://creativecommons.org/share-your-work/public-domain/cc0/"
+    },
+    "proprietary": {
+      "description": "Licenses that impose significant restrictions and are not considered open.",
+      "url": null
+    }
+  },
+
+  "domain": {
+    "_group": {
+      "short": "Usage domain",
+      "description": "Describes the primary type of material the license is intended for, such as software, data, content, or documentation."
+    },
+    "software": {
+      "description": "Primarily applicable to software or source code.",
+      "url": null
+    },
+    "data": {
+      "description": "Primarily applicable to data sets or databases.",
+      "url": null
+    },
+    "content": {
+      "description": "Primarily applicable to creative works such as text, images, audio, or video.",
+      "url": null
+    },
+    "documentation": {
+      "description": "Primarily used for documentation, manuals, and written guides.",
+      "url": null
+    },
+    "mixed": {
+      "description": "Applies across multiple domains such as software, data, and content.",
+      "url": null
+    }
+  },
+
+  "copyleft": {
+    "_group": {
+      "short": "Copyleft strength",
+      "description": "Describes how strongly the license requires sharing modifications or derivative works under similar terms (permissive, weak copyleft, strong copyleft, network copyleft, or none)."
+    },
+    "permissive": {
+      "description": "Licenses allowing reuse with minimal restrictions, e.g., MIT, BSD, Apache.",
+      "url": "https://en.wikipedia.org/wiki/Permissive_software_licence"
+    },
+    "weak": {
+      "description": "Copyleft applies only to certain parts or files, e.g., MPL, LGPL.",
+      "url": "https://en.wikipedia.org/wiki/Weak_copyleft"
+    },
+    "strong": {
+      "description": "Copyleft requires that derivative works use the same license, e.g., GPL.",
+      "url": "https://en.wikipedia.org/wiki/Copyleft"
+    },
+    "network": {
+      "description": "Copyleft obligations also apply when the software is used over a network, e.g., AGPL.",
+      "url": "https://en.wikipedia.org/wiki/Affero_General_Public_License"
+    },
+    "none": {
+      "description": "No copyleft requirements (often public domain or very simple grants).",
+      "url": null
+    }
+  },
+
+  "family": {
+    "_group": {
+      "short": "License family",
+      "description": "Groups licenses that belong to the same legal family or brand, such as Creative Commons (CC), GPL, MIT, or Apache."
+    },
+    "CC": {
+      "description": "Creative Commons family, such as CC-BY, CC-BY-SA, etc.",
+      "url": "https://creativecommons.org/licenses/"
+    },
+    "ODC": {
+      "description": "Open Data Commons license family, including ODbL, ODC-By, and PDDL.",
+      "url": "https://opendatacommons.org/licenses/"
+    },
+    "GPL": {
+      "description": "GNU General Public License family.",
+      "url": "https://www.gnu.org/licenses/gpl-3.0.html"
+    },
+    "AGPL": {
+      "description": "GNU Affero General Public License family.",
+      "url": "https://www.gnu.org/licenses/agpl-3.0.html"
+    },
+    "LGPL": {
+      "description": "GNU Lesser General Public License family.",
+      "url": "https://www.gnu.org/licenses/lgpl-3.0.html"
+    },
+    "MIT": {
+      "description": "MIT permissive license family.",
+      "url": "https://opensource.org/license/mit/"
+    },
+    "BSD": {
+      "description": "BSD 2-Clause and 3-Clause permissive license family.",
+      "url": "https://opensource.org/licenses/BSD-3-Clause"
+    },
+    "Apache": {
+      "description": "Apache License family, including Apache-1.1 and Apache-2.0.",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0"
+    }
+  },
+
+  "region": {
+    "_group": {
+      "short": "Region or jurisdiction",
+      "description": "Indicates that a license is specific to a country or jurisdiction, such as UK, Norway, or France."
+    },
+    "UK": {
+      "description": "United Kingdom localized or government licenses (for example, OGL-UK).",
+      "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+    },
+    "NO": {
+      "description": "Norwegian government licenses (for example, NLOD).",
+      "url": "https://data.norge.no/nlod/en"
+    },
+    "FR": {
+      "description": "French government open data licenses (for example, Licence Ouverte / Etalab).",
+      "url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/"
+    }
+  },
+
+  "notes": {
+    "_group": {
+      "short": "Special behavior",
+      "description": "Additional semantic flags that describe important behavioral aspects of a license, such as attribution requirements, share-alike, or custom terms."
+    },
+    "attribution-required": {
+      "description": "License requires attribution to the original creator or data provider.",
+      "url": "https://en.wikipedia.org/wiki/Attribution_(copyright)"
+    },
+    "share-alike": {
+      "description": "Derivatives must be licensed under the same or a compatible license.",
+      "url": "https://creativecommons.org/share-your-work/how-to-attribute/sa/"
+    },
+    "no-derivatives": {
+      "description": "Users may not distribute derivative works.",
+      "url": "https://creativecommons.org/licenses/by-nd/4.0/"
+    },
+    "includes-patent-grant": {
+      "description": "The license includes an explicit grant of patent rights to downstream users.",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0#patent"
+    },
+    "must-include-disclaimer": {
+      "description": "The license requires including a disclaimer of warranties or liability.",
+      "url": "https://en.wikipedia.org/wiki/Warranty_disclaimer"
+    },
+    "government-open-license": {
+      "description": "Indicates the license is a government open license with special terms or obligations.",
+      "url": "https://en.wikipedia.org/wiki/Open_government_licence"
+    },
+    "custom-terms": {
+      "description": "The license contains custom, non-standard, or unusual terms not fully covered by other tags.",
+      "url": null
+    }
+  },
+
+  "spdx": {
+    "_group": {
+      "short": "SPDX status",
+      "description": "Metadata that reflects how the license is classified in the SPDX list, such as OSI approval, FSF status, or deprecation."
+    },
+    "osi-approved": {
+      "description": "The license is approved by the Open Source Initiative (OSI).",
+      "url": "https://opensource.org/licenses"
+    },
+    "fsf-free": {
+      "description": "The license is classified as free by the Free Software Foundation.",
+      "url": "https://www.gnu.org/licenses/license-list.html"
+    },
+    "deprecated": {
+      "description": "This license identifier is deprecated in the SPDX list and should not be used for new content.",
+      "url": "https://spdx.org/licenses/"
+    }
+  }
+}

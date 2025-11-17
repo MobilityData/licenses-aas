@@ -38,5 +38,9 @@
   "categorized": false,
   "permissions": [],
   "conditions": [],
-  "limitations": []
+  "limitations": [],
+  "tags": [
+    "license:open-source",
+    "domain:software"
+  ]
 }

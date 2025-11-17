@@ -36,5 +36,13 @@
   "limitations": [
     "liability",
     "warranty"
+  ],
+  "tags": [
+    "spdx:osi-approved",
+    "spdx:fsf-free",
+    "license:public-domain",
+    "copyleft:none",
+    "domain:content",
+    "domain:data"
   ]
 }

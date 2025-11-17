@@ -50,5 +50,13 @@
     "patent-use",
     "trademark-use",
     "warranty"
+  ],
+  "tags": [
+    "spdx:fsf-free",
+    "license:open-data-commons",
+    "family:ODC",
+    "domain:data",
+    "notes:attribution-required",
+    "notes:share-alike"
   ]
 }

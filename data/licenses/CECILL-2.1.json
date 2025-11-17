@@ -41,5 +41,10 @@
   "limitations": [
     "liability",
     "warranty"
+  ],
+  "tags": [
+    "spdx:osi-approved",
+    "license:open-source",
+    "domain:software"
   ]
 }

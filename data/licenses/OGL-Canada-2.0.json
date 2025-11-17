@@ -25,5 +25,12 @@
   "categorized": false,
   "permissions": [],
   "conditions": [],
-  "limitations": []
+  "limitations": [],
+  "tags": [
+    "license:government-open-license",
+    "domain:data",
+    "domain:content",
+    "notes:government-open-license",
+    "notes:attribution-required"
+  ]
 }

@@ -43,5 +43,12 @@
   "limitations": [
     "liability",
     "warranty"
+  ],
+  "tags": [
+    "spdx:osi-approved",
+    "license:public-domain",
+    "copyleft:none",
+    "domain:content",
+    "domain:data"
   ]
 }

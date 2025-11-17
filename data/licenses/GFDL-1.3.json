@@ -43,5 +43,12 @@
   "limitations": [
     "liability",
     "warranty"
+  ],
+  "tags": [
+    "spdx:fsf-free",
+    "spdx:deprecated",
+    "license:open-source",
+    "domain:documentation",
+    "domain:content"
   ]
 }

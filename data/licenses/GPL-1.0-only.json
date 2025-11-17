@@ -30,5 +30,11 @@
   "categorized": false,
   "permissions": [],
   "conditions": [],
-  "limitations": []
+  "limitations": [],
+  "tags": [
+    "license:open-source",
+    "family:GPL",
+    "domain:software",
+    "copyleft:strong"
+  ]
 }

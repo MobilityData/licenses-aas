@@ -55,5 +55,12 @@
     "liability",
     "trademark-use",
     "warranty"
+  ],
+  "tags": [
+    "spdx:osi-approved",
+    "spdx:fsf-free",
+    "license:open-source",
+    "domain:software",
+    "copyleft:weak"
   ]
 }

@@ -37,5 +37,10 @@
   "categorized": false,
   "permissions": [],
   "conditions": [],
-  "limitations": []
+  "limitations": [],
+  "tags": [
+    "license:creative-commons",
+    "family:CC",
+    "domain:content"
+  ]
 }

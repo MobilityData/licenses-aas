@@ -47,5 +47,11 @@
   "limitations": [
     "warranty",
     "trademark-use"
+  ],
+  "tags": [
+    "spdx:osi-approved",
+    "spdx:fsf-free",
+    "license:open-source",
+    "domain:software"
   ]
 }
